@@ -1,0 +1,51 @@
+.footer{
+    height: 420px;
+    background: #242424;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 50px;
+    padding-left: 300px;
+    .footer__top{
+        width: 80%;
+        display: inherit;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid #FFFFFF;
+        border-top: 1px solid #FFFFFF;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        div{
+            object{
+                .horseshoe__img{
+                    width: 60px;
+                    margin-top: 0px;
+                }.insta__img{
+                    width: 36px;
+                }
+            }h1{
+                font-family: 'EB Garamond', serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 120%;
+            }h2{
+                font-family: 'Cormorant Garamond', serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 130%;
+            }.h1-3{
+                margin-top: -30px;
+            }.h1-4{
+                margin-top: -75px;
+            }
+        }
+    }.footer__h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -300px;
+        margin-top: 50px;
+        opacity: 0.5;
+    }
+}

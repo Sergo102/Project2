@@ -1,0 +1,144 @@
+.content__makeup{
+    width: 100%;
+    height: 1800px;
+    background: #242424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    .object{
+        margin-top: -100px;
+    }.makeup__p{
+        width: 37%;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 130%;
+        /* or 35px */
+        text-align: center;
+        /* white */
+        color: #FFFFFF;
+        margin-top: 50px;
+    }.makeup__content{
+        width: 100%;
+        .content__images{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            div.images__div{
+                width: 1200px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-left: 330px;
+                margin-top: 70px;
+                .images__item{
+                    margin-left: 30px;
+                    object{
+                        img{
+                            width: 380px;
+                            height: 300px;
+                        }
+                    }.item__border{
+                        width: 380px;
+                        height: 300px;
+                        border: 1px solid #CDAA7D;
+                        margin-top: -320px;
+                        margin-left: 15px;
+                    }.item__h1{
+                        font-family: 'EB Garamond', serif;
+                        font-weight: 400;
+                        font-size: 30px;
+                        line-height: 120%;
+                        /* identical to box height, or 36px */
+                        /* white */
+                        color: #FFFFFF;
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }.content__down{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-left: 15%;
+            margin-top: 150px;
+            object{
+                .down__img1{
+                    width: 70px;
+                    height: 108px;
+                }
+            }object{
+                .down__img2{
+                    width: 90px;
+                    height: 120px;
+                }
+            }object{
+                img.down__img3{
+                    width: 190px;
+                    height: 100px;
+                }
+            }object{
+                img.down__img4{
+                    width: 110px;
+                    height: 108px;
+                }
+            }
+        }
+    }
+}.content__services{
+    height: 1500px;
+    background: #242424;
+    .services__h1{
+        font-family: 'EB Garamond', serif;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 120%;
+        /* identical to box height, or 58px */
+        text-align: center;
+        /* white */
+        color: #FFFFFF;
+        margin-top: 0px;
+        margin-left: 70px;
+    }.services__ul{
+        width: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 580px;
+        li{
+            padding: 10px;
+            a{
+                padding-bottom: 20px;
+            }a:hover{
+                border-bottom: 1px solid #CDAA7D;
+                transition: 0.45s;
+                color: #CDAA7D;
+            }
+        }
+    }.services__content{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 280px;
+        margin-top: 40px;
+        .content__block{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+            object{
+                .block__img{
+                    width: 416px;
+                    height: 416px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}
